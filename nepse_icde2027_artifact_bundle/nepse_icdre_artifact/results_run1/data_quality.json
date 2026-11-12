@@ -1,0 +1,136 @@
+{
+  "rows": 148187,
+  "symbols": 101,
+  "dates": 3343,
+  "first_date": "2012-02-26",
+  "last_date": "2026-11-03",
+  "n_features": 72,
+  "symbol_days_missing_inside_listing": 7223,
+  "feature_missing_rate_top5": {
+    "trade_size_std": 0.3252,
+    "broker_anomaly_score": 0.3167,
+    "avg_trade_size": 0.3151,
+    "vpoc_volume_concentration": 0.3151,
+    "vpoc_close_distance": 0.3151
+  },
+  "label_distribution": {
+    "DOWN": 0.3935,
+    "FLAT": 0.2766,
+    "UP": 0.33
+  },
+  "zero_volume_share": 0.005702254583735415,
+  "corporate_actions": {
+    "close_raw": {
+      "n_breaches": 219,
+      "n_symbols": 75,
+      "examples": [
+        {
+          "date": "2019-03-03 00:00:00",
+          "symbol": "ADBL",
+          "move": -0.11711711711711714
+        },
+        {
+          "date": "2019-12-29 00:00:00",
+          "symbol": "ADBL",
+          "move": -0.11270983213429253
+        },
+        {
+          "date": "2020-12-30 00:00:00",
+          "symbol": "ADBL",
+          "move": -0.13524590163934425
+        },
+        {
+          "date": "2022-01-02 00:00:00",
+          "symbol": "ADBL",
+          "move": -0.16463414634146345
+        },
+        {
+          "date": "2026-05-13 00:00:00",
+          "symbol": "AHL",
+          "move": 0.11417322834645671
+        },
+        {
+          "date": "2021-03-22 00:00:00",
+          "symbol": "AHPC",
+          "move": -0.1693290734824281
+        },
+        {
+          "date": "2021-09-27 00:00:00",
+          "symbol": "AHPC",
+          "move": -0.1443478260869565
+        },
+        {
+          "date": "2023-04-02 00:00:00",
+          "symbol": "AHPC",
+          "move": -0.22572178477690286
+        },
+        {
+          "date": "2024-01-29 00:00:00",
+          "symbol": "AHPC",
+          "move": -0.2537473233404711
+        },
+        {
+          "date": "2022-06-26 00:00:00",
+          "symbol": "AKJCL",
+          "move": 0.11747851002865328
+        }
+      ]
+    },
+    "close": {
+      "n_breaches": 85,
+      "n_symbols": 34,
+      "examples": [
+        {
+          "date": "2026-05-13 00:00:00",
+          "symbol": "AHL",
+          "move": 0.11417322834645671
+        },
+        {
+          "date": "2014-02-13 00:00:00",
+          "symbol": "AHPC",
+          "move": -0.31672577830321447
+        },
+        {
+          "date": "2021-03-22 00:00:00",
+          "symbol": "AHPC",
+          "move": 0.1274186734262781
+        },
+        {
+          "date": "2026-07-15 00:00:00",
+          "symbol": "BANDIPUR",
+          "move": -0.11067193675889331
+        },
+        {
+          "date": "2026-07-15 00:00:00",
+          "symbol": "BHCL",
+          "move": -0.1514626480780079
+        },
+        {
+          "date": "2026-10-28 00:00:00",
+          "symbol": "BPCL",
+          "move": 0.10599999999999987
+        },
+        {
+          "date": "2026-05-27 00:00:00",
+          "symbol": "BUNGAL",
+          "move": 0.14875017074170183
+        },
+        {
+          "date": "2026-06-01 00:00:00",
+          "symbol": "BUNGAL",
+          "move": -0.13198573127229485
+        },
+        {
+          "date": "2026-06-19 00:00:00",
+          "symbol": "BUNGAL",
+          "move": -0.12454954954954955
+        },
+        {
+          "date": "2026-06-23 00:00:00",
+          "symbol": "BUNGAL",
+          "move": -0.15000000000000002
+        }
+      ]
+    }
+  }
+}

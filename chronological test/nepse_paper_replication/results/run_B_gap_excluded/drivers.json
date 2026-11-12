@@ -1,0 +1,54 @@
+{
+ "1d": {
+  "base_logloss": 0.682094967262128,
+  "delta_logloss": {
+   "Returns & momentum": 0.005557676307460319,
+   "Volatility & range": 0.0007569691152931324,
+   "Candle shape & gaps": 0.0023346214815353483,
+   "Trend & oscillators": 0.00047304974897816043,
+   "Liquidity & volume": 0.0012703655708312667,
+   "Broker concentration": 0.0027287228477953784,
+   "NEPSE market": 0.016953446670921607,
+   "Fundamentals": 0.0006702879607248524
+  }
+ },
+ "3d": {
+  "base_logloss": 0.6961332325923302,
+  "delta_logloss": {
+   "Returns & momentum": 0.0001334246342330203,
+   "Volatility & range": 0.0005972297543829774,
+   "Candle shape & gaps": 0.0032040147689176013,
+   "Trend & oscillators": -0.0010841894952893782,
+   "Liquidity & volume": 0.0007341486610129566,
+   "Broker concentration": 0.0018498313128963717,
+   "NEPSE market": 0.016121691110503683,
+   "Fundamentals": -0.004029288007677406
+  }
+ },
+ "5d": {
+  "base_logloss": 0.6895426476045013,
+  "delta_logloss": {
+   "Returns & momentum": -0.0020896367032254004,
+   "Volatility & range": 0.0010165343491818357,
+   "Candle shape & gaps": 0.0023414309808437728,
+   "Trend & oscillators": 0.0024547314497425365,
+   "Liquidity & volume": 0.002808357543914869,
+   "Broker concentration": 0.001336031303969698,
+   "NEPSE market": 0.035303103204834624,
+   "Fundamentals": 0.008265793943941085
+  }
+ },
+ "10d": {
+  "base_logloss": 0.6972139273934752,
+  "delta_logloss": {
+   "Returns & momentum": -0.007286512310244103,
+   "Volatility & range": 0.002806693440173258,
+   "Candle shape & gaps": 0.0025221600573628877,
+   "Trend & oscillators": -0.0016864550705737447,
+   "Liquidity & volume": 0.0028475526902179416,
+   "Broker concentration": 0.0005362185868879044,
+   "NEPSE market": 0.05545410201840009,
+   "Fundamentals": 0.02445540658217507
+  }
+ }
+}

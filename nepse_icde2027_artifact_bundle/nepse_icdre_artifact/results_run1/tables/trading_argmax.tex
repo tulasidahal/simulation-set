@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Long-only trading net of costs (argmax rule).}
+\label{tab:trading_argmax}
+\begin{tabular}{lrrrr}
+\toprule
+Method & ann\_return & sharpe & max\_drawdown & exposure \\
+\midrule
+catboost & -0.779 $\pm$ 0.006 & -5.278 $\pm$ 0.114 & -1.000 $\pm$ 0.000 & 0.992 $\pm$ 0.002 \\
+lightgbm & -0.774 $\pm$ 0.004 & -5.143 $\pm$ 0.072 & -1.000 $\pm$ 0.000 & 0.998 $\pm$ 0.001 \\
+xgboost & -0.782 $\pm$ 0.004 & -5.267 $\pm$ 0.115 & -1.000 $\pm$ 0.000 & 0.998 $\pm$ 0.001 \\
+transformer & -0.766 $\pm$ 0.016 & -4.950 $\pm$ 0.299 & -1.000 $\pm$ 0.000 & 0.998 $\pm$ 0.001 \\
+majority & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+persistence & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+momentum20 & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+logreg & -0.792 $\pm$ 0.000 & -5.401 $\pm$ 0.000 & -1.000 $\pm$ 0.000 & 0.992 $\pm$ 0.000 \\
+stack\_lr\_logits & -0.750 $\pm$ 0.008 & -4.943 $\pm$ 0.226 & -1.000 $\pm$ 0.000 & 0.873 $\pm$ 0.032 \\
+stack\_lr\_logits\_balanced & -0.799 $\pm$ 0.006 & -5.716 $\pm$ 0.173 & -1.000 $\pm$ 0.000 & 0.998 $\pm$ 0.002 \\
+stack\_lr\_probs & -0.722 $\pm$ 0.014 & \textbf{-4.410 $\pm$ 0.305} & -0.999 $\pm$ 0.000 & 0.884 $\pm$ 0.066 \\
+stack\_mean\_prob & -0.762 $\pm$ 0.006 & -4.938 $\pm$ 0.127 & -1.000 $\pm$ 0.000 & 0.997 $\pm$ 0.003 \\
+stack\_mean\_logprob & -0.763 $\pm$ 0.007 & -4.942 $\pm$ 0.139 & -1.000 $\pm$ 0.000 & 0.997 $\pm$ 0.002 \\
+\bottomrule
+\end{tabular}
+\end{table}

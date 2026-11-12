@@ -1,0 +1,107 @@
+{
+ "U_len": 1855,
+ "folds": [
+  {
+   "fold": 1,
+   "train_sess": [
+    312,
+    815
+   ],
+   "val_sess": [
+    841,
+    971
+   ]
+  },
+  {
+   "fold": 2,
+   "train_sess": [
+    312,
+    946
+   ],
+   "val_sess": [
+    972,
+    1102
+   ]
+  },
+  {
+   "fold": 3,
+   "train_sess": [
+    312,
+    1077
+   ],
+   "val_sess": [
+    1103,
+    1233
+   ]
+  },
+  {
+   "fold": 4,
+   "train_sess": [
+    312,
+    1208
+   ],
+   "val_sess": [
+    1234,
+    1364
+   ]
+  },
+  {
+   "fold": 5,
+   "train_sess": [
+    312,
+    1339
+   ],
+   "val_sess": [
+    1365,
+    1495
+   ]
+  },
+  {
+   "fold": 6,
+   "train_sess": [
+    312,
+    1470
+   ],
+   "val_sess": [
+    1496,
+    1626
+   ]
+  },
+  {
+   "fold": 7,
+   "train_sess": [
+    312,
+    1601
+   ],
+   "val_sess": [
+    1627,
+    1757
+   ]
+  },
+  {
+   "fold": 8,
+   "train_sess": [
+    312,
+    1732
+   ],
+   "val_sess": [
+    1758,
+    1891
+   ]
+  }
+ ],
+ "dev_sess": [
+  312,
+  1891
+ ],
+ "test_sess": [
+  1917,
+  2168
+ ],
+ "params": {
+  "MIN_TRAIN": 504,
+  "EMBARGO": 25,
+  "N_FOLDS": 8,
+  "FINAL_TEST": 250
+ }
+}

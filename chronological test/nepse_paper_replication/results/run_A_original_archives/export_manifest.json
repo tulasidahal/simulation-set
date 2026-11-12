@@ -1,0 +1,217 @@
+{
+  "features": [
+    "ret1",
+    "ret2",
+    "ret3",
+    "ret5",
+    "ret10",
+    "ret20",
+    "ret60",
+    "vol5",
+    "vol10",
+    "vol20",
+    "vol60",
+    "hl_range",
+    "oc_ret",
+    "close_vwap",
+    "gap",
+    "close_pos",
+    "ma5_dist",
+    "ma10_dist",
+    "ma20_dist",
+    "ma50_dist",
+    "rsi14",
+    "macd_hist",
+    "bb_pos",
+    "atr14_pct",
+    "stoch_k14",
+    "drawdown60",
+    "dist_high252",
+    "dist_low252",
+    "volratio_1_20",
+    "volratio_5_20",
+    "log_amount",
+    "log_trades",
+    "amihud20",
+    "stale20",
+    "turnover_trend",
+    "avg_trade_size",
+    "trades_ratio20",
+    "buyer_hhi",
+    "seller_hhi",
+    "buyer_top1",
+    "seller_top1",
+    "buyer_top5",
+    "seller_top5",
+    "log_buyers",
+    "log_sellers",
+    "self_share",
+    "large_share",
+    "size_cv",
+    "broker_imbalance",
+    "buyer_hhi_chg5",
+    "mkt_ret1",
+    "mkt_vol20",
+    "rel_ret5",
+    "fund_ep",
+    "fund_bp",
+    "fund_roe",
+    "fund_de",
+    "fund_rev_growth",
+    "fund_eps_yoy",
+    "fund_age"
+  ],
+  "feature_set": "all",
+  "horizons": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "artifacts": {
+    "final_test.lock": {
+      "bytes": 263,
+      "sha256": "73bf75b91421c58774fbdf21c54fd8f3eaa5760ee628430a69a7bfa851ccb0d4"
+    },
+    "extratrees_final_h1.joblib": {
+      "bytes": 12522482,
+      "sha256": "47330e26dd0d2c5f5aeb4fe6411e5b6e4121040447653bd22c230684049db930"
+    },
+    "extratrees_final_h10.joblib": {
+      "bytes": 12541682,
+      "sha256": "080e07d5658c8a9b44c0e16eb64f208a63c75d96d184bf3832d725a35c2bc6df"
+    },
+    "extratrees_final_h3.joblib": {
+      "bytes": 12506322,
+      "sha256": "869620fca1bf680d8aeaaaf32ba72a97c21cd6d255eefbbf3b85568d3da996c9"
+    },
+    "extratrees_final_h5.joblib": {
+      "bytes": 12521522,
+      "sha256": "0d2035a7b8636d614fe1071cd4cc934e623eae66538f748a1f334fbd513c611c"
+    },
+    "hgb_final_h1.joblib": {
+      "bytes": 608672,
+      "sha256": "a4dd0086036b946a37f5b853639f7d7a0d022df6112a653ea60ed016fdaf350e"
+    },
+    "hgb_final_h10.joblib": {
+      "bytes": 350488,
+      "sha256": "d4e52eeb248947f8171c9120cd1522e9bba0d4921f893d449262eece31c5d630"
+    },
+    "hgb_final_h3.joblib": {
+      "bytes": 401400,
+      "sha256": "9c815570f917fbc510c85062875808e937c4fa197d1b735099e0a93ded18cbc9"
+    },
+    "hgb_final_h5.joblib": {
+      "bytes": 332352,
+      "sha256": "4495697353074e5d5ff2032cedb53c4b1b1564df34bda4757012d957782554e3"
+    },
+    "logistic_final_h1.joblib": {
+      "bytes": 490125,
+      "sha256": "4825d76bfcc61047a307ec352df971e68731310c49cd6b7c7cf9506644b7ae3f"
+    },
+    "logistic_final_h10.joblib": {
+      "bytes": 490125,
+      "sha256": "724ac193fcf77bfce07715141e7aab459a68c8918a34777acdd3f176f9a3806a"
+    },
+    "logistic_final_h3.joblib": {
+      "bytes": 490125,
+      "sha256": "977250935fff10680a632056fa092732fe0ef5cd123895f36652c0014ca1d0d2"
+    },
+    "logistic_final_h5.joblib": {
+      "bytes": 490125,
+      "sha256": "e9e906e49f4bd83f90eda29e1619285e8644529b82af8b77fc8e03b27ecbd809"
+    },
+    "mlp_final.joblib": {
+      "bytes": 209480,
+      "sha256": "071da671b2fee44b997fa73fb9ec6b39aeca37815e2dab4a267fcf7b008153a1"
+    },
+    "ranker_final_h1.joblib": {
+      "bytes": 1571198,
+      "sha256": "76aef4547addfffa9a488b9ff4d6dbf0fe01353774bb1d0be906a247dcf82a24"
+    },
+    "ranker_final_h10.joblib": {
+      "bytes": 1571198,
+      "sha256": "e9d8af2e7816c25339a5a60087af6352c3805baf25ca55e661cbcb4a825c20cd"
+    },
+    "ranker_final_h3.joblib": {
+      "bytes": 1571198,
+      "sha256": "370bbbf634675fe3bc78ee5f9eedb52bbac1aac34b940c210c66fabf8f88886c"
+    },
+    "ranker_final_h5.joblib": {
+      "bytes": 1571198,
+      "sha256": "63bc06b216c23e4e6d5f40ec57044514abd933f678feb5ce4c487b42d76d950e"
+    },
+    "second_level_h1.joblib": {
+      "bytes": 2656,
+      "sha256": "43863870d97ccd2acc05b9fe145a2c777624ec72eb370b11518e23abf98088b0"
+    },
+    "second_level_h10.joblib": {
+      "bytes": 2656,
+      "sha256": "719142dab785ba8f2e624564e47af7ea005d926dd959cbfefb4c0eebe11ccf21"
+    },
+    "second_level_h3.joblib": {
+      "bytes": 2656,
+      "sha256": "e55d5d4f7a7d17d56ce9f60e57f47c70354387e04a80efe5e1d831df1be638b8"
+    },
+    "second_level_h5.joblib": {
+      "bytes": 2656,
+      "sha256": "d69286ef0b43600b8d3714217502a399c206f52d4c59e80a4c7d67fdf825eeec"
+    },
+    "seq_mlp_final.joblib": {
+      "bytes": 559516,
+      "sha256": "14307cadc8d72ade7c11223740215a3162a14dad176fbe04b82db37d9bc5afb8"
+    },
+    "drivers.json": {
+      "bytes": 1788,
+      "sha256": "0e9f9f5187a42682c564d06bf74ae415e170d4a535a491ba8811da1e99b9d1fc"
+    },
+    "export_manifest.json": {
+      "bytes": 6051,
+      "sha256": "5b7de07f68359fa3ddb816c7c994513b28edab1a70753387f603bfd95e51f196"
+    },
+    "stage01_02_ingest_report.json": {
+      "bytes": 3503,
+      "sha256": "5f01cdbc77688cdee659cd06210c285bcfd45df9bcb6331f60be338517b797a2"
+    },
+    "stage01b_aux_report.json": {
+      "bytes": 20247,
+      "sha256": "e0ae6174d65360e1319f23e818ff4e7e00b29efcc6e04a09c3f16d12500664d5"
+    },
+    "stage03_04_panel_report.json": {
+      "bytes": 3382,
+      "sha256": "bf91351ef709fbd334a615706bffa6788d285d3bbe4dd1227e2009f0d1c59152"
+    },
+    "stage05_audit_report.json": {
+      "bytes": 10297,
+      "sha256": "66f5ec592dbce9ac3886cef22205d9329f561fb5165e956d81421d50aeb5f030"
+    },
+    "stage06_08_models_report.json": {
+      "bytes": 49156,
+      "sha256": "594afb311f1e526d6acb8960f1c87fcfc5ca0620bcd41e8caad08a304534baf8"
+    },
+    "stage09_10_ensemble_report.json": {
+      "bytes": 10734,
+      "sha256": "201fc82d0e62be6a2cb65d38a8bccf108ae9d1eb200f0a6c241f5186c2fd1010"
+    },
+    "stage11_stats.json": {
+      "bytes": 434407,
+      "sha256": "934611dad379c8fbcf36babe03c0a5c726221d3af00ab3c1090c1af3b89262c5"
+    },
+    "stage12_final_test.json": {
+      "bytes": 255064,
+      "sha256": "3178f4f5019fc9d9946543f764be355f7b2e9db789d282b3ece31c74aad94677"
+    },
+    "stage13_backtest.json": {
+      "bytes": 13956,
+      "sha256": "9dcf0b57014648c43212f119ed356c3bee1f3482a5956fd05c7259947797af22"
+    },
+    "selection.json": {
+      "bytes": 486,
+      "sha256": "220dd5aa4f8184def88087f9e5b80acf419a5de0424816c8f3f5be51aeab9a20"
+    },
+    "splits.json": {
+      "bytes": 20217,
+      "sha256": "84ce11bbc70bb733727957a32019a7b49dbe1fcef80bbac31bce8b7fba6f5f78"
+    }
+  }
+}

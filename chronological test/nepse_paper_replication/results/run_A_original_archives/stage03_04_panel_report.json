@@ -1,0 +1,123 @@
+{
+  "universe": {
+    "equity": 369,
+    "promoter_share": 143,
+    "debenture_or_fund_series": 112,
+    "mutual_fund": 30
+  },
+  "equity_price_source": {
+    "ohlcv_adjusted": 287,
+    "floorsheet": 82
+  },
+  "bars": {
+    "ohlcv_ohlc_repaired": 19433,
+    "floorsheet_bars_chained_into_ohlcv_symbols": 1522,
+    "bars_by_source": {
+      "ohlcv_adjusted": 369216,
+      "floorsheet_chained": 1522,
+      "floorsheet_delisted": 34753
+    },
+    "fundamentals": {
+      "reports_used": 5613,
+      "symbols_with_reports": 270
+    }
+  },
+  "rows_all_traded": 405491,
+  "rows_eligible": 360943,
+  "symbols_eligible": 362,
+  "sessions_eligible": 1855,
+  "first_eligible_date": "2018-10-01",
+  "last_date": "2026-11-05",
+  "n_core_features": 53,
+  "n_fundamental_features": 7,
+  "corporate_action_or_bad_print_days": 225,
+  "floorsheet_coverage_eligible": 0.884762968114079,
+  "floorsheet_coverage_by_year": {
+    "2018": 0.976,
+    "2019": 0.983,
+    "2020": 0.981,
+    "2021": 0.989,
+    "2022": 0.292,
+    "2023": 0.812,
+    "2024": 0.963,
+    "2025": 0.993,
+    "2026": 0.995
+  },
+  "fundamental_coverage_eligible": 0.7235990170193077,
+  "feature_missing_rate_eligible": {
+    "vol5": 0.0015,
+    "vol10": 0.0018,
+    "vol20": 0.0023,
+    "vol60": 0.0039,
+    "close_vwap": 0.1152,
+    "atr14_pct": 0.0014,
+    "stoch_k14": 0.0014,
+    "dist_high252": 0.0357,
+    "dist_low252": 0.0357,
+    "volratio_5_20": 0.0003,
+    "log_amount": 0.1152,
+    "log_trades": 0.1152,
+    "amihud20": 0.0916,
+    "turnover_trend": 0.1063,
+    "avg_trade_size": 0.1152,
+    "trades_ratio20": 0.1182,
+    "buyer_hhi": 0.1152,
+    "seller_hhi": 0.1152,
+    "buyer_top1": 0.1152,
+    "seller_top1": 0.1152,
+    "buyer_top5": 0.1152,
+    "seller_top5": 0.1152,
+    "log_buyers": 0.1152,
+    "log_sellers": 0.1152,
+    "self_share": 0.1152,
+    "large_share": 0.1152,
+    "size_cv": 0.1152,
+    "broker_imbalance": 0.1152,
+    "buyer_hhi_chg5": 0.1177,
+    "fund_ep": 0.2764,
+    "fund_bp": 0.211,
+    "fund_roe": 0.3101,
+    "fund_de": 0.3174,
+    "fund_rev_growth": 0.3465,
+    "fund_eps_yoy": 0.4152,
+    "fund_age": 0.1611
+  },
+  "targets": {
+    "1d": {
+      "labeled": 340322,
+      "up_rate": 0.455283522605896,
+      "flat_excluded_share": 0.05636347013240318,
+      "fwd_ret_mean": 0.0007772904355078936,
+      "fwd_ret_std": 0.02499077469110489,
+      "tradable_ret_mean": 0.0001298847491852939,
+      "tradable_missing": 0.012688984133228793
+    },
+    "3d": {
+      "labeled": 354301,
+      "up_rate": 0.4567077159881592,
+      "flat_excluded_share": 0.01610780649576249,
+      "fwd_ret_mean": 0.002271641045808792,
+      "fwd_ret_std": 0.04373243451118469,
+      "tradable_ret_mean": 0.001607418293133378,
+      "tradable_missing": 0.01421277043743749
+    },
+    "5d": {
+      "labeled": 355809,
+      "up_rate": 0.4616296887397766,
+      "flat_excluded_share": 0.01040053415636264,
+      "fwd_ret_mean": 0.00381954456679523,
+      "fwd_ret_std": 0.05714410915970802,
+      "tradable_ret_mean": 0.003135969629511237,
+      "tradable_missing": 0.015739327262199294
+    },
+    "10d": {
+      "labeled": 356498,
+      "up_rate": 0.4660334587097168,
+      "flat_excluded_share": 0.0054246792429829644,
+      "fwd_ret_mean": 0.007726368028670549,
+      "fwd_ret_std": 0.08332029730081558,
+      "tradable_ret_mean": 0.006997776683419943,
+      "tradable_missing": 0.018792440911722903
+    }
+  }
+}

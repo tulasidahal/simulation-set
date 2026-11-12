@@ -1,0 +1,22 @@
+{
+  "1d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.6763817252545249
+  },
+  "3d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.687390973204108
+  },
+  "5d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.6931550822998394
+  },
+  "10d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.7110410613401146
+  }
+}

@@ -1,0 +1,5 @@
+horizon,primary,best_single,oof_logloss_primary
+1d,weighted,extratrees,0.6763817252545249
+3d,weighted,extratrees,0.687390973204108
+5d,weighted,extratrees,0.6931550822998394
+10d,weighted,extratrees,0.7110410613401146

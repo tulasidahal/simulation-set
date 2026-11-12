@@ -1,0 +1,32 @@
+{
+  "recovered_sessions": 97,
+  "recovered_symbol_sessions": 22673,
+  "recovered_trades": 3687558,
+  "bars_replaced": 2136,
+  "bars_added": 20537,
+  "bars_kept_from_original_on_recovered_dates": 0,
+  "trades_before_on_recovered_dates": 25371,
+  "replaced_bars_with_fewer_trades_than_before": 0,
+  "parse": {
+    "rows_in": 3687558,
+    "rows_clean": 3687558,
+    "dropped_required_null": 0,
+    "dropped_nonpositive": 0,
+    "dropped_bad_broker": 0,
+    "dup_rows": 0,
+    "amount_mismatch": 0,
+    "sn_date_mismatch": 0,
+    "alpha_broker_fields": 1618,
+    "unparsed_lines": 0
+  },
+  "broker_alpha_codes": {
+    "D01": 10000
+  },
+  "daily_rows_before": 405370,
+  "daily_rows_after": 425907,
+  "sessions_before": 1840,
+  "sessions_after": 1840,
+  "trades_before": 91009140,
+  "trades_after": 94671327,
+  "ohlc_violations": 0
+}

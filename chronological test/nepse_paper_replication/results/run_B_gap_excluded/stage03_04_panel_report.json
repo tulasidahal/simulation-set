@@ -1,0 +1,151 @@
+{
+  "universe": {
+    "equity": 369,
+    "promoter_share": 143,
+    "debenture_or_fund_series": 112,
+    "mutual_fund": 30
+  },
+  "equity_price_source": {
+    "ohlcv_adjusted": 287,
+    "floorsheet": 82
+  },
+  "bars": {
+    "ohlcv_ohlc_repaired": 19433,
+    "floorsheet_bars_chained_into_ohlcv_symbols": 1522,
+    "bars_by_source": {
+      "ohlcv_adjusted": 369216,
+      "floorsheet_chained": 1522,
+      "floorsheet_delisted": 34753
+    },
+    "fundamentals": {
+      "reports_used": 5613,
+      "symbols_with_reports": 270
+    },
+    "thin_floorsheet": {
+      "excluded": true,
+      "min_coverage": 0.5,
+      "min_block": 5,
+      "buffer_sessions": 19,
+      "thin_sessions": 277,
+      "excluded_sessions": 317,
+      "blocks": [
+        {
+          "from": "2022-02-10",
+          "to": "2022-02-28",
+          "sessions": 13,
+          "buffer_to": "2022-03-31"
+        },
+        {
+          "from": "2022-03-31",
+          "to": "2023-03-30",
+          "sessions": 238,
+          "buffer_to": "2023-04-26"
+        },
+        {
+          "from": "2024-03-17",
+          "to": "2024-03-31",
+          "sessions": 10,
+          "buffer_to": "2024-05-02"
+        }
+      ]
+    }
+  },
+  "rows_all_traded": 405491,
+  "rows_eligible": 305474,
+  "symbols_eligible": 362,
+  "sessions_eligible": 1538,
+  "first_eligible_date": "2018-10-01",
+  "last_date": "2026-11-05",
+  "n_core_features": 53,
+  "n_fundamental_features": 7,
+  "corporate_action_or_bad_print_days": 220,
+  "floorsheet_coverage_eligible": 0.9916424965790869,
+  "floorsheet_coverage_by_year": {
+    "2018": 0.976,
+    "2019": 0.983,
+    "2020": 0.981,
+    "2021": 0.989,
+    "2022": 0.995,
+    "2023": 0.998,
+    "2024": 1.0,
+    "2025": 0.993,
+    "2026": 0.995
+  },
+  "fundamental_coverage_eligible": 0.7251517314075829,
+  "feature_missing_rate_eligible": {
+    "vol5": 0.0016,
+    "vol10": 0.0018,
+    "vol20": 0.0019,
+    "vol60": 0.0032,
+    "close_vwap": 0.0084,
+    "atr14_pct": 0.0013,
+    "stoch_k14": 0.0013,
+    "dist_high252": 0.0372,
+    "dist_low252": 0.0372,
+    "volratio_5_20": 0.0003,
+    "log_amount": 0.0084,
+    "log_trades": 0.0084,
+    "amihud20": 0.0038,
+    "turnover_trend": 0.0042,
+    "avg_trade_size": 0.0084,
+    "trades_ratio20": 0.0097,
+    "buyer_hhi": 0.0084,
+    "seller_hhi": 0.0084,
+    "buyer_top1": 0.0084,
+    "seller_top1": 0.0084,
+    "buyer_top5": 0.0084,
+    "seller_top5": 0.0084,
+    "log_buyers": 0.0084,
+    "log_sellers": 0.0084,
+    "self_share": 0.0084,
+    "large_share": 0.0084,
+    "size_cv": 0.0084,
+    "broker_imbalance": 0.0084,
+    "buyer_hhi_chg5": 0.009,
+    "fund_ep": 0.2748,
+    "fund_bp": 0.2359,
+    "fund_roe": 0.3048,
+    "fund_de": 0.3122,
+    "fund_rev_growth": 0.3573,
+    "fund_eps_yoy": 0.4137,
+    "fund_age": 0.1802
+  },
+  "targets": {
+    "1d": {
+      "labeled": 286914,
+      "up_rate": 0.46181434392929077,
+      "flat_excluded_share": 0.059851247569351236,
+      "fwd_ret_mean": 0.0010771645465865731,
+      "fwd_ret_std": 0.02505224011838436,
+      "tradable_ret_mean": 0.0003244092804379761,
+      "tradable_missing": 0.013844058741496822
+    },
+    "3d": {
+      "labeled": 299409,
+      "up_rate": 0.4655003547668457,
+      "flat_excluded_share": 0.017143848576310912,
+      "fwd_ret_mean": 0.003175636986270547,
+      "fwd_ret_std": 0.044057201594114304,
+      "tradable_ret_mean": 0.002402033656835556,
+      "tradable_missing": 0.015644539306127525
+    },
+    "5d": {
+      "labeled": 300713,
+      "up_rate": 0.4746352732181549,
+      "flat_excluded_share": 0.011068045070938934,
+      "fwd_ret_mean": 0.005342194810509682,
+      "fwd_ret_std": 0.05761308968067169,
+      "tradable_ret_mean": 0.004547844175249338,
+      "tradable_missing": 0.017448293471784834
+    },
+    "10d": {
+      "labeled": 301242,
+      "up_rate": 0.48454397916793823,
+      "flat_excluded_share": 0.005712433791419237,
+      "fwd_ret_mean": 0.010735583491623402,
+      "fwd_ret_std": 0.08448661118745804,
+      "tradable_ret_mean": 0.009895573370158672,
+      "tradable_missing": 0.021055801803099447
+    }
+  }
+}

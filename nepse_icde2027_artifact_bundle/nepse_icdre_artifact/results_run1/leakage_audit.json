@@ -1,0 +1,22 @@
+{
+  "real_features": {
+    "threshold": 0.25,
+    "top_ic": {
+      "relative_strength_vs_sector": -0.0945,
+      "return_lag_2": -0.0902,
+      "return_lag_3": -0.0873,
+      "return_lag_4": -0.0833,
+      "return_lag_5": -0.0772,
+      "bb_percent_b": -0.0741,
+      "return_lag_1": -0.0688,
+      "relative_strength_vs_market": -0.0688,
+      "dist_sma_20": -0.0637,
+      "rsi": -0.0602
+    },
+    "flagged": {}
+  },
+  "detector_validation": {
+    "canary_flagged": false,
+    "canary_ic": 0.2418
+  }
+}

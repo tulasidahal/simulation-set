@@ -1,0 +1,451 @@
+{
+  "params": {
+    "costs_per_side": {
+      "commission": 0.0036,
+      "sebon": 0.00015,
+      "slippage": 0.001
+    },
+    "cgt_short_term": 0.075,
+    "min_amount_npr": 1000000,
+    "max_positions_per_signal_session": 10,
+    "sessions_per_year": 240
+  },
+  "test": {
+    "1d": {
+      "primary": "weighted",
+      "thr_0.55": {
+        "signals": 1450,
+        "filled": 1409,
+        "fill_rate": 0.9717241379310345,
+        "trades": 1409,
+        "signal_sessions": 210,
+        "mean_net_per_trade": -0.0033228781539946795,
+        "median_net_per_trade": -0.0042417049407958984,
+        "hit_rate_net": 0.4038325053229241,
+        "mean_gross_per_trade": 0.00683571957051754,
+        "ci_mean_net": [
+          -0.00507436557492343,
+          -0.00158199088440037
+        ],
+        "p_mean_net_le_0": 1.0,
+        "cum_return": -0.4878826141357422,
+        "ann_return": -0.4699667692184448,
+        "ann_vol": 0.2763743293486857,
+        "sharpe": -2.1576625608909166,
+        "max_drawdown": -0.5319849252700806,
+        "exposure_share_sessions": 0.84,
+        "benchmark_all_eligible_mean_net": -0.008491646498441696,
+        "placebo_mean_net": -0.007779293227940798,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.60": {
+        "signals": 423,
+        "filled": 410,
+        "fill_rate": 0.9692671394799054,
+        "trades": 410,
+        "signal_sessions": 102,
+        "mean_net_per_trade": -0.002036168472841382,
+        "median_net_per_trade": -0.0036089718341827393,
+        "hit_rate_net": 0.4121951219512195,
+        "mean_gross_per_trade": 0.008141547441482544,
+        "ci_mean_net": [
+          -0.005634293250329562,
+          0.0019572860305462347
+        ],
+        "p_mean_net_le_0": 0.832,
+        "cum_return": -0.2699955701828003,
+        "ann_return": -0.25809502601623535,
+        "ann_vol": 0.21029602321838464,
+        "sharpe": -1.3125651361698945,
+        "max_drawdown": -0.2983691096305847,
+        "exposure_share_sessions": 0.408,
+        "benchmark_all_eligible_mean_net": -0.008491646498441696,
+        "placebo_mean_net": -0.006534824147820473,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.65": {
+        "signals": 28,
+        "filled": 27,
+        "fill_rate": 0.9642857142857143,
+        "note": "too few trades"
+      },
+      "thr_0.70": {
+        "signals": 7,
+        "filled": 7,
+        "fill_rate": 1.0,
+        "note": "too few trades"
+      },
+      "ranker_top10": {
+        "signals": 2460,
+        "filled": 2392,
+        "fill_rate": 0.9723577235772358,
+        "trades": 2392,
+        "signal_sessions": 241,
+        "mean_net_per_trade": -0.005250697955489159,
+        "median_net_per_trade": -0.007174700498580933,
+        "hit_rate_net": 0.33821070234113715,
+        "mean_gross_per_trade": 0.004720535594969988,
+        "ci_mean_net": [
+          -0.006597033798837699,
+          -0.0038167053419001927
+        ],
+        "p_mean_net_le_0": 1.0,
+        "cum_return": -0.7235779762268066,
+        "ann_return": -0.7046979069709778,
+        "ann_vol": 0.16181209931951573,
+        "sharpe": -7.438270126060012,
+        "max_drawdown": -0.746173620223999,
+        "exposure_share_sessions": 0.964,
+        "benchmark_all_eligible_mean_net": -0.008491646498441696,
+        "placebo_mean_net": -0.008523904718458652,
+        "p_vs_placebo": 0.0
+      }
+    },
+    "3d": {
+      "primary": "weighted",
+      "thr_0.55": {
+        "signals": 1507,
+        "filled": 1443,
+        "fill_rate": 0.9575315195753152,
+        "trades": 1443,
+        "signal_sessions": 220,
+        "mean_net_per_trade": -0.0009566163062117994,
+        "median_net_per_trade": -0.0036283135414123535,
+        "hit_rate_net": 0.44213444213444214,
+        "mean_gross_per_trade": 0.009577035903930664,
+        "ci_mean_net": [
+          -0.00478772712952519,
+          0.002876075354596737
+        ],
+        "p_mean_net_le_0": 0.692,
+        "cum_return": -0.2803291082382202,
+        "ann_return": -0.2662673592567444,
+        "ann_vol": 0.11878393124891132,
+        "sharpe": -2.545204993971753,
+        "max_drawdown": -0.3212242126464844,
+        "exposure_share_sessions": 0.88,
+        "benchmark_all_eligible_mean_net": -0.009827720932662487,
+        "placebo_mean_net": -0.006539572961628437,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.60": {
+        "signals": 252,
+        "filled": 244,
+        "fill_rate": 0.9682539682539683,
+        "trades": 244,
+        "signal_sessions": 82,
+        "mean_net_per_trade": 0.005452285520732403,
+        "median_net_per_trade": 0.0004920735955238342,
+        "hit_rate_net": 0.5040983606557377,
+        "mean_gross_per_trade": 0.016471516340970993,
+        "ci_mean_net": [
+          -0.002510956942109527,
+          0.014062107809435469
+        ],
+        "p_mean_net_le_0": 0.118,
+        "cum_return": 0.08223617076873779,
+        "ann_return": 0.0772167444229126,
+        "ann_vol": 0.11114659160310787,
+        "sharpe": 0.7243530618436874,
+        "max_drawdown": -0.12095314264297485,
+        "exposure_share_sessions": 0.328,
+        "benchmark_all_eligible_mean_net": -0.009827720932662487,
+        "placebo_mean_net": -0.003656978951767087,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.65": {
+        "signals": 2,
+        "filled": 2,
+        "fill_rate": 1.0,
+        "note": "too few trades"
+      },
+      "thr_0.70": {
+        "signals": 0,
+        "filled": 0,
+        "fill_rate": null,
+        "note": "too few trades"
+      },
+      "ranker_top10": {
+        "signals": 2460,
+        "filled": 2378,
+        "fill_rate": 0.9666666666666667,
+        "trades": 2378,
+        "signal_sessions": 239,
+        "mean_net_per_trade": -0.0040592350997030735,
+        "median_net_per_trade": -0.006446927785873413,
+        "hit_rate_net": 0.38519764507989906,
+        "mean_gross_per_trade": 0.0061884680762887,
+        "ci_mean_net": [
+          -0.007189873530611516,
+          -0.0010920934641737222
+        ],
+        "p_mean_net_le_0": 0.992,
+        "cum_return": -0.26800429821014404,
+        "ann_return": -0.2544468641281128,
+        "ann_vol": 0.09547380807231944,
+        "sharpe": -3.02586080919097,
+        "max_drawdown": -0.3081810474395752,
+        "exposure_share_sessions": 0.956,
+        "benchmark_all_eligible_mean_net": -0.009827720932662487,
+        "placebo_mean_net": -0.009661078453063965,
+        "p_vs_placebo": 0.0
+      }
+    },
+    "5d": {
+      "primary": "weighted",
+      "thr_0.55": {
+        "signals": 1172,
+        "filled": 1099,
+        "fill_rate": 0.9377133105802048,
+        "trades": 1099,
+        "signal_sessions": 161,
+        "mean_net_per_trade": -0.001429185038432479,
+        "median_net_per_trade": -0.005437493324279785,
+        "hit_rate_net": 0.42857142857142855,
+        "mean_gross_per_trade": 0.009272340685129166,
+        "ci_mean_net": [
+          -0.00856158445736902,
+          0.0058497036969242895
+        ],
+        "p_mean_net_le_0": 0.664,
+        "cum_return": -0.22838783264160156,
+        "ann_return": -0.21504026651382446,
+        "ann_vol": 0.09354378342710085,
+        "sharpe": -2.540184516091912,
+        "max_drawdown": -0.3270058035850525,
+        "exposure_share_sessions": 0.644,
+        "benchmark_all_eligible_mean_net": -0.010609526187181473,
+        "placebo_mean_net": -0.005675815511494875,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.60": {
+        "signals": 135,
+        "filled": 128,
+        "fill_rate": 0.9481481481481482,
+        "trades": 128,
+        "signal_sessions": 28,
+        "mean_net_per_trade": -0.0014743129722774029,
+        "median_net_per_trade": -0.01352161169052124,
+        "hit_rate_net": 0.3671875,
+        "mean_gross_per_trade": 0.009411191567778587,
+        "ci_mean_net": [
+          -0.019772612480890184,
+          0.0144052606002784
+        ],
+        "p_mean_net_le_0": 0.58,
+        "cum_return": -0.021158456802368164,
+        "ann_return": -0.019772827625274658,
+        "ann_vol": 0.03508342933468802,
+        "sharpe": -0.5517801367668549,
+        "max_drawdown": -0.05718588829040527,
+        "exposure_share_sessions": 0.112,
+        "benchmark_all_eligible_mean_net": -0.010609526187181473,
+        "placebo_mean_net": -0.004318735562264919,
+        "p_vs_placebo": 0.17
+      },
+      "thr_0.65": {
+        "signals": 2,
+        "filled": 2,
+        "fill_rate": 1.0,
+        "note": "too few trades"
+      },
+      "thr_0.70": {
+        "signals": 0,
+        "filled": 0,
+        "fill_rate": null,
+        "note": "too few trades"
+      },
+      "ranker_top10": {
+        "signals": 2460,
+        "filled": 2356,
+        "fill_rate": 0.9577235772357724,
+        "trades": 2356,
+        "signal_sessions": 238,
+        "mean_net_per_trade": -0.004286051262170076,
+        "median_net_per_trade": -0.00710633397102356,
+        "hit_rate_net": 0.3853989813242784,
+        "mean_gross_per_trade": 0.00611486891284585,
+        "ci_mean_net": [
+          -0.009413304216758345,
+          0.0009636931493182176
+        ],
+        "p_mean_net_le_0": 0.948,
+        "cum_return": -0.17227798700332642,
+        "ann_return": -0.16186058521270752,
+        "ann_vol": 0.0739489319025275,
+        "sharpe": -2.3499283035259926,
+        "max_drawdown": -0.2394716739654541,
+        "exposure_share_sessions": 0.952,
+        "benchmark_all_eligible_mean_net": -0.010609526187181473,
+        "placebo_mean_net": -0.010233240202069283,
+        "p_vs_placebo": 0.0
+      }
+    },
+    "10d": {
+      "primary": "weighted",
+      "thr_0.55": {
+        "signals": 1647,
+        "filled": 1518,
+        "fill_rate": 0.9216757741347905,
+        "trades": 1518,
+        "signal_sessions": 189,
+        "mean_net_per_trade": -0.0024870026390999556,
+        "median_net_per_trade": -0.0056002140045166016,
+        "hit_rate_net": 0.4479578392621871,
+        "mean_gross_per_trade": 0.00836246833205223,
+        "ci_mean_net": [
+          -0.013722925270951623,
+          0.0067658142178607895
+        ],
+        "p_mean_net_le_0": 0.678,
+        "cum_return": -0.11189889907836914,
+        "ann_return": -0.103005051612854,
+        "ann_vol": 0.04435173751924507,
+        "sharpe": -2.4282203337332833,
+        "max_drawdown": -0.1835860013961792,
+        "exposure_share_sessions": 0.756,
+        "benchmark_all_eligible_mean_net": -0.012928791344165802,
+        "placebo_mean_net": -0.009984279051423073,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.60": {
+        "signals": 453,
+        "filled": 409,
+        "fill_rate": 0.9028697571743929,
+        "trades": 409,
+        "signal_sessions": 71,
+        "mean_net_per_trade": 0.005206266418099403,
+        "median_net_per_trade": 6.175041198730469e-05,
+        "hit_rate_net": 0.5036674816625917,
+        "mean_gross_per_trade": 0.016365157440304756,
+        "ci_mean_net": [
+          -0.010050249092752867,
+          0.022096331302424638
+        ],
+        "p_mean_net_le_0": 0.29,
+        "cum_return": 0.05180621147155762,
+        "ann_return": 0.047354698181152344,
+        "ann_vol": 0.028848958962644417,
+        "sharpe": 1.618347397171645,
+        "max_drawdown": -0.037194132804870605,
+        "exposure_share_sessions": 0.284,
+        "benchmark_all_eligible_mean_net": -0.012928791344165802,
+        "placebo_mean_net": -0.002714472124353051,
+        "p_vs_placebo": 0.0
+      },
+      "thr_0.65": {
+        "signals": 0,
+        "filled": 0,
+        "fill_rate": null,
+        "note": "too few trades"
+      },
+      "thr_0.70": {
+        "signals": 0,
+        "filled": 0,
+        "fill_rate": null,
+        "note": "too few trades"
+      },
+      "ranker_top10": {
+        "signals": 2460,
+        "filled": 2315,
+        "fill_rate": 0.9410569105691057,
+        "trades": 2315,
+        "signal_sessions": 233,
+        "mean_net_per_trade": -0.0040460922755301,
+        "median_net_per_trade": -0.008349180221557617,
+        "hit_rate_net": 0.41511879049676026,
+        "mean_gross_per_trade": 0.006673836149275303,
+        "ci_mean_net": [
+          -0.012660044355307161,
+          0.004943795888714345
+        ],
+        "p_mean_net_le_0": 0.815,
+        "cum_return": -0.08636212348937988,
+        "ann_return": -0.07940655946731567,
+        "ann_vol": 0.04503442659364401,
+        "sharpe": -1.8143613000557575,
+        "max_drawdown": -0.17216598987579346,
+        "exposure_share_sessions": 0.932,
+        "benchmark_all_eligible_mean_net": -0.012928791344165802,
+        "placebo_mean_net": -0.012477777898311615,
+        "p_vs_placebo": 0.0
+      }
+    }
+  },
+  "oof": {
+    "1d": {
+      "signals": 6,
+      "filled": 6,
+      "fill_rate": 1.0,
+      "note": "too few trades"
+    },
+    "3d": {
+      "signals": 1,
+      "filled": 1,
+      "fill_rate": 1.0,
+      "note": "too few trades"
+    },
+    "5d": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    },
+    "10d": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    }
+  },
+  "sweep": {
+    "1d_cost_x0.0": {
+      "signals": 7,
+      "filled": 7,
+      "fill_rate": 1.0,
+      "note": "too few trades"
+    },
+    "1d_cost_x2.0": {
+      "signals": 7,
+      "filled": 7,
+      "fill_rate": 1.0,
+      "note": "too few trades"
+    },
+    "3d_cost_x0.0": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    },
+    "3d_cost_x2.0": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    },
+    "5d_cost_x0.0": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    },
+    "5d_cost_x2.0": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    },
+    "10d_cost_x0.0": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    },
+    "10d_cost_x2.0": {
+      "signals": 0,
+      "filled": 0,
+      "fill_rate": null,
+      "note": "too few trades"
+    }
+  }
+}

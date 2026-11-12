@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Xgb ablation: mean $\pm$ std over 5 seeds, walk-forward test blocks.}
+\label{tab:xgb_ablation}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & accuracy & balanced\_accuracy & macro\_f1 & mcc & log\_loss & ece \\
+\midrule
+xgb\_full & 0.395 $\pm$ 0.002 & 0.379 $\pm$ 0.001 & 0.377 $\pm$ 0.002 & 0.066 $\pm$ 0.002 & 1.081 $\pm$ 0.001 & 0.021 $\pm$ 0.002 \\
+xgb\_no\_class\_balance & 0.399 $\pm$ 0.001 & 0.362 $\pm$ 0.001 & 0.349 $\pm$ 0.002 & 0.047 $\pm$ 0.002 & 1.079 $\pm$ 0.001 & 0.027 $\pm$ 0.001 \\
+xgb\_no\_time\_decay & 0.404 $\pm$ 0.001 & \textbf{0.391 $\pm$ 0.002} & \textbf{0.390 $\pm$ 0.003} & \textbf{0.085 $\pm$ 0.003} & 1.076 $\pm$ 0.000 & 0.018 $\pm$ 0.001 \\
+xgb\_no\_symbol\_sector & 0.399 $\pm$ 0.001 & 0.385 $\pm$ 0.001 & 0.384 $\pm$ 0.001 & 0.074 $\pm$ 0.001 & 1.077 $\pm$ 0.001 & 0.027 $\pm$ 0.000 \\
+xgb\_focal\_g1 & 0.395 $\pm$ 0.003 & 0.378 $\pm$ 0.002 & 0.376 $\pm$ 0.003 & 0.064 $\pm$ 0.003 & 1.081 $\pm$ 0.001 & 0.022 $\pm$ 0.004 \\
+xgb\_focal\_g2 & 0.395 $\pm$ 0.004 & 0.376 $\pm$ 0.004 & 0.372 $\pm$ 0.005 & 0.062 $\pm$ 0.005 & 1.081 $\pm$ 0.003 & 0.023 $\pm$ 0.003 \\
+xgb\_stop\_macro\_f1 & 0.396 $\pm$ 0.001 & 0.381 $\pm$ 0.002 & 0.382 $\pm$ 0.002 & 0.069 $\pm$ 0.002 & 1.080 $\pm$ 0.001 & 0.019 $\pm$ 0.002 \\
+xgb\_stop\_mcc & 0.387 $\pm$ 0.002 & 0.378 $\pm$ 0.002 & 0.375 $\pm$ 0.004 & 0.064 $\pm$ 0.003 & 1.086 $\pm$ 0.001 & 0.024 $\pm$ 0.003 \\
+xgb\_no\_calibration & 0.395 $\pm$ 0.002 & 0.379 $\pm$ 0.001 & 0.377 $\pm$ 0.002 & 0.066 $\pm$ 0.002 & 1.081 $\pm$ 0.001 & 0.013 $\pm$ 0.003 \\
+xgb\_original\_350x4 & 0.411 $\pm$ 0.000 & 0.378 $\pm$ 0.000 & 0.370 $\pm$ 0.000 & 0.071 $\pm$ 0.000 & \textbf{1.074 $\pm$ 0.000} & \textbf{0.005 $\pm$ 0.000} \\
+\bottomrule
+\end{tabular}
+\end{table}

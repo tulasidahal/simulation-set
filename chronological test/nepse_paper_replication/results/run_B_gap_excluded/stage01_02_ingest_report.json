@@ -1,0 +1,149 @@
+{
+  "inventory": [
+    {
+      "file": "floorsheet_data_part1.zip",
+      "zip_bytes": 393370161,
+      "sha256": "2f0d17037a60c3a032ce7b572dbc6874dba23f2a4974c2ae9cacf37f42011595",
+      "crc_ok": true,
+      "members": [
+        {
+          "name": "floorsheet_data_part1.sql",
+          "uncompressed_bytes": 3156719961,
+          "crc32": "5e07f739"
+        }
+      ],
+      "target_table": "table",
+      "schema_columns": [
+        "sn",
+        "symbol",
+        "buyer",
+        "seller",
+        "quantity",
+        "rate",
+        "amount",
+        "trade_date",
+        "trade_time"
+      ]
+    },
+    {
+      "file": "floorsheet_data_part2.zip",
+      "zip_bytes": 204507687,
+      "sha256": "f1dc39c48ca63786b75ee6fedc594590315a5e0ffc1ea2ef54b1bec060039365",
+      "crc_ok": true,
+      "members": [
+        {
+          "name": "floorsheet_data_part2.sql",
+          "uncompressed_bytes": 1495566935,
+          "crc32": "7cc9a577"
+        }
+      ],
+      "target_table": "table",
+      "schema_columns": [
+        "sn",
+        "symbol",
+        "buyer",
+        "seller",
+        "quantity",
+        "rate",
+        "amount",
+        "trade_date",
+        "trade_time"
+      ]
+    },
+    {
+      "file": "floorsheet_data_part3.zip",
+      "zip_bytes": 357184144,
+      "sha256": "25f403e6889a11c6c19371a8fbf0d7a427cfab0ee38296b2edb130d7794583fc",
+      "crc_ok": true,
+      "members": [
+        {
+          "name": "floorsheet_data_part3.sql",
+          "uncompressed_bytes": 2684719076,
+          "crc32": "681cc1db"
+        }
+      ],
+      "target_table": "table",
+      "schema_columns": [
+        "sn",
+        "symbol",
+        "buyer",
+        "seller",
+        "quantity",
+        "rate",
+        "amount",
+        "trade_date",
+        "trade_time"
+      ]
+    }
+  ],
+  "cleaning": {
+    "rows_in": 91048648,
+    "rows_valid": 91048640,
+    "nulls": {
+      "sn": 0,
+      "symbol": 0,
+      "buyer": 0,
+      "seller": 0,
+      "quantity": 0,
+      "rate": 0,
+      "amount": 0,
+      "trade_date": 0,
+      "trade_time": 72248755
+    },
+    "dropped_required_null": 0,
+    "dropped_nonpositive": 8,
+    "dropped_bad_broker": 0,
+    "dropped_bad_date": 0,
+    "amount_mismatch": 710,
+    "sn_date_mismatch": 102076,
+    "fractional_qty": 0,
+    "per_part": {
+      "floorsheet_data_part1.zip": {
+        "rows_in": 41169555,
+        "rows_valid": 41169548,
+        "min_date": "2018-10-01",
+        "max_date": "2024-01-31"
+      },
+      "floorsheet_data_part2.zip": {
+        "rows_in": 19364427,
+        "rows_valid": 19364426,
+        "min_date": "2024-02-01",
+        "max_date": "2025-01-28"
+      },
+      "floorsheet_data_part3.zip": {
+        "rows_in": 30514666,
+        "rows_valid": 30514666,
+        "min_date": "2025-02-02",
+        "max_date": "2026-11-05"
+      }
+    },
+    "alpha_broker_fields": 33758,
+    "dedup": {
+      "rows_before": 91048640,
+      "rows_after": 91009140,
+      "duplicates_removed": 39500,
+      "exact": 39500,
+      "conflicting": 0,
+      "months_with_duplicates": {
+        "202607": 39500
+      },
+      "by_parts": {
+        "part3->part3": 39500
+      }
+    },
+    "malformed_sn_rows": 102076,
+    "rows_kept": 91009140,
+    "rows_dropped_total": 39508,
+    "daily_rows": 405370,
+    "symbols": 655,
+    "sessions": 1840,
+    "min_date": "2018-10-01",
+    "max_date": "2026-11-05",
+    "ohlc_violations": 0,
+    "trades_reconcile": true,
+    "clean_trades_bytes": 2912317312
+  },
+  "broker_alpha_codes": {
+    "D01": 10000
+  }
+}

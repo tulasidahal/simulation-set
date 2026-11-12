@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Long-only trading net of costs (conf rule).}
+\label{tab:trading_conf}
+\begin{tabular}{lrrrr}
+\toprule
+Method & ann\_return & sharpe & max\_drawdown & exposure \\
+\midrule
+catboost & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+lightgbm & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+xgboost & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+transformer & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+majority & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+persistence & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+momentum20 & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+logreg & -0.115 $\pm$ 0.000 & \textbf{-1.920 $\pm$ 0.000} & -0.496 $\pm$ 0.000 & 0.042 $\pm$ 0.000 \\
+stack\_lr\_logits & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+stack\_lr\_logits\_balanced & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+stack\_lr\_probs & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+stack\_mean\_prob & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+stack\_mean\_logprob & 0.000 $\pm$ 0.000 & nan $\pm$ 0.000 & 0.000 $\pm$ 0.000 & 0.000 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

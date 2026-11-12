@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Stack ablation: mean $\pm$ std over 5 seeds, walk-forward test blocks.}
+\label{tab:stack_ablation}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & accuracy & balanced\_accuracy & macro\_f1 & mcc & log\_loss & ece \\
+\midrule
+stack\_lr\_logits & 0.395 $\pm$ 0.003 & \textbf{0.356 $\pm$ 0.008} & \textbf{0.334 $\pm$ 0.018} & \textbf{0.037 $\pm$ 0.012} & 1.084 $\pm$ 0.002 & 0.039 $\pm$ 0.003 \\
+stack\_without\_catboost & 0.393 $\pm$ 0.002 & 0.351 $\pm$ 0.003 & 0.323 $\pm$ 0.012 & 0.030 $\pm$ 0.004 & 1.087 $\pm$ 0.002 & \textbf{0.038 $\pm$ 0.005} \\
+stack\_without\_lightgbm & 0.396 $\pm$ 0.003 & 0.355 $\pm$ 0.008 & 0.327 $\pm$ 0.018 & 0.036 $\pm$ 0.011 & \textbf{1.083 $\pm$ 0.001} & 0.039 $\pm$ 0.004 \\
+stack\_without\_xgboost & 0.395 $\pm$ 0.004 & 0.354 $\pm$ 0.008 & 0.330 $\pm$ 0.016 & 0.036 $\pm$ 0.012 & 1.085 $\pm$ 0.002 & 0.040 $\pm$ 0.004 \\
+stack\_without\_transformer & 0.395 $\pm$ 0.003 & 0.351 $\pm$ 0.003 & 0.310 $\pm$ 0.008 & 0.031 $\pm$ 0.005 & 1.083 $\pm$ 0.001 & 0.039 $\pm$ 0.003 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,454 @@
+{
+  "checks": {
+    "embargo_covers_label_horizon": {
+      "passed": true,
+      "detail": "min (val_start - (train_end + 10)) = 16 sessions; embargo=25"
+    },
+    "validation_blocks_contiguous_non_overlapping": {
+      "passed": true,
+      "detail": "blocks tile the development period"
+    },
+    "first_train_window_min_sessions": {
+      "passed": true,
+      "detail": "504 sessions"
+    },
+    "final_test_isolated": {
+      "passed": true,
+      "detail": "gap=25 eligible sessions, 26 calendar sessions; test=250 sessions"
+    },
+    "dev_test_row_disjoint": {
+      "passed": true,
+      "detail": "dev rows=234,940, test rows=64,387"
+    },
+    "no_duplicate_symbol_session": {
+      "passed": true,
+      "detail": "unique (symbol, session)"
+    },
+    "targets_unavailable_in_last_h_sessions": {
+      "passed": true,
+      "detail": "labelled rows in last h sessions: {1: 0, 3: 0, 5: 0, 10: 0}"
+    },
+    "truncation_same_rows": {
+      "passed": true,
+      "detail": "286,755 / 286,755 rows present in both builds"
+    },
+    "features_lookahead_free_truncation_test": {
+      "passed": true,
+      "detail": "max |diff|=0.00e+00 (None); NaN-pattern mismatches=0; 60 features x 286,755 rows"
+    },
+    "no_suspicious_feature_target_correlation": {
+      "passed": true,
+      "detail": "top |corr| with y_1: [('ret2', -0.037), ('close_vwap', -0.036), ('volratio_1_20', 0.03), ('buyer_top5', 0.028), ('broker_imbalance', 0.028)]"
+    }
+  },
+  "truncation_feature_diffs": {
+    "ret1": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ret2": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ret3": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ret5": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ret10": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ret20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ret60": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "vol5": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "vol10": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "vol20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "vol60": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "hl_range": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "oc_ret": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "close_vwap": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "gap": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "close_pos": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ma5_dist": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ma10_dist": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ma20_dist": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "ma50_dist": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "rsi14": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "macd_hist": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "bb_pos": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "atr14_pct": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "stoch_k14": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "drawdown60": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "dist_high252": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "dist_low252": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "volratio_1_20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "volratio_5_20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "log_amount": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "log_trades": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "amihud20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "stale20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "turnover_trend": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "avg_trade_size": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "trades_ratio20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "buyer_hhi": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "seller_hhi": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "buyer_top1": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "seller_top1": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "buyer_top5": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "seller_top5": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "log_buyers": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "log_sellers": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "self_share": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "large_share": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "size_cv": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "broker_imbalance": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "buyer_hhi_chg5": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "mkt_ret1": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "mkt_vol20": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "rel_ret5": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_ep": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_bp": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_roe": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_de": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_rev_growth": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_eps_yoy": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    },
+    "fund_age": {
+      "max_abs_diff": 0.0,
+      "nan_mismatch": 0
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "train_sessions": 504,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2021-01-21"
+      ],
+      "val_dates": [
+        "2021-02-28",
+        "2021-07-11"
+      ],
+      "train_rows": 72100,
+      "val_rows": 15899,
+      "val_up_rate_1d": 0.48124295473098755,
+      "val_up_rate_3d": 0.5267292857170105,
+      "val_up_rate_5d": 0.5685440301895142,
+      "val_up_rate_10d": 0.6293489933013916
+    },
+    {
+      "fold": 2,
+      "train_sessions": 595,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2021-06-06"
+      ],
+      "val_dates": [
+        "2021-07-12",
+        "2021-12-01"
+      ],
+      "train_rows": 87712,
+      "val_rows": 16414,
+      "val_up_rate_1d": 0.4398672878742218,
+      "val_up_rate_3d": 0.43358057737350464,
+      "val_up_rate_5d": 0.40925222635269165,
+      "val_up_rate_10d": 0.3627205491065979
+    },
+    {
+      "fold": 3,
+      "train_sessions": 686,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2021-10-24"
+      ],
+      "val_dates": [
+        "2021-12-02",
+        "2023-07-03"
+      ],
+      "train_rows": 104076,
+      "val_rows": 17614,
+      "val_up_rate_1d": 0.4850991368293762,
+      "val_up_rate_3d": 0.5094534158706665,
+      "val_up_rate_5d": 0.5296741127967834,
+      "val_up_rate_10d": 0.5821261405944824
+    },
+    {
+      "fold": 4,
+      "train_sessions": 777,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2023-05-24"
+      ],
+      "val_dates": [
+        "2023-07-04",
+        "2023-11-30"
+      ],
+      "train_rows": 121079,
+      "val_rows": 19377,
+      "val_up_rate_1d": 0.4182206690311432,
+      "val_up_rate_3d": 0.38780295848846436,
+      "val_up_rate_5d": 0.376545786857605,
+      "val_up_rate_10d": 0.372980535030365
+    },
+    {
+      "fold": 5,
+      "train_sessions": 868,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2023-10-10"
+      ],
+      "val_dates": [
+        "2023-12-03",
+        "2024-06-05"
+      ],
+      "train_rows": 140052,
+      "val_rows": 21519,
+      "val_up_rate_1d": 0.4952029287815094,
+      "val_up_rate_3d": 0.5257035493850708,
+      "val_up_rate_5d": 0.5564689636230469,
+      "val_up_rate_10d": 0.5720347166061401
+    },
+    {
+      "fold": 6,
+      "train_sessions": 959,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2024-03-10"
+      ],
+      "val_dates": [
+        "2024-06-06",
+        "2024-10-27"
+      ],
+      "train_rows": 161023,
+      "val_rows": 22100,
+      "val_up_rate_1d": 0.4907274544239044,
+      "val_up_rate_3d": 0.5319071412086487,
+      "val_up_rate_5d": 0.5496363639831543,
+      "val_up_rate_10d": 0.5880565643310547
+    },
+    {
+      "fold": 7,
+      "train_sessions": 1050,
+      "val_sessions": 91,
+      "train_dates": [
+        "2018-10-01",
+        "2024-09-12"
+      ],
+      "val_dates": [
+        "2024-10-28",
+        "2025-03-23"
+      ],
+      "train_rows": 183145,
+      "val_rows": 22083,
+      "val_up_rate_1d": 0.44951868057250977,
+      "val_up_rate_3d": 0.43927448987960815,
+      "val_up_rate_5d": 0.4535169005393982,
+      "val_up_rate_10d": 0.44442933797836304
+    },
+    {
+      "fold": 8,
+      "train_sessions": 1141,
+      "val_sessions": 97,
+      "train_dates": [
+        "2018-10-01",
+        "2025-02-11"
+      ],
+      "val_dates": [
+        "2025-03-24",
+        "2025-08-17"
+      ],
+      "train_rows": 205221,
+      "val_rows": 23655,
+      "val_up_rate_1d": 0.447297066450119,
+      "val_up_rate_3d": 0.4507274627685547,
+      "val_up_rate_5d": 0.4518352448940277,
+      "val_up_rate_10d": 0.4450928270816803
+    }
+  ],
+  "final_test": {
+    "sessions": 250,
+    "dates": [
+      "2025-10-12",
+      "2026-11-05"
+    ],
+    "rows": 64387
+  },
+  "notes": [
+    "Labels overlap for h>1; block bootstrap and HAC tests (stage 11) account for serial dependence.",
+    "Exactly-flat forward returns are excluded from classification labels.",
+    "Universe is not filtered by future history length (no survivorship filter); eligibility uses only past data."
+  ],
+  "all_checks_passed": true
+}

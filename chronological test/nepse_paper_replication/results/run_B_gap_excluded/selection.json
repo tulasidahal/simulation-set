@@ -1,0 +1,22 @@
+{
+  "1d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.6810540491502165
+  },
+  "3d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.6918836132819105
+  },
+  "5d": {
+    "primary": "stacking__platt",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.6966911151957098
+  },
+  "10d": {
+    "primary": "weighted",
+    "best_single": "extratrees",
+    "oof_logloss_primary": 0.7002191044038613
+  }
+}
